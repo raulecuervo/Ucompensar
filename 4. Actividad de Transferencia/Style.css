@@ -1,0 +1,113 @@
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos del encabezado */
+.header {
+    background-color: #4caf50;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+
+.header h2 {
+    font-size: 24px;
+    font-weight: normal;
+    color: white;
+}
+
+/* Estilos del menú lateral */
+.sidebar {
+    background-color: #66bb6a;
+    width: 200px;
+    padding: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Estilos del contenido */
+.content {
+    padding: 20px;
+    flex: 1;
+    overflow: auto;
+}
+
+.content h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #4caf50;
+    text-align: center;
+}
+
+.content p {
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    color: #4caf50;
+    text-align: justify;
+}
+
+/* Estilos del pie de página */
+.footer {
+    background-color: #66bb6a;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+}
+
+/* Estilos para el diseño flexible */
+.container {
+    display: flex;
+}
+
+.foto img { 
+    float:left;
+    width: 250px;
+    height: 330px;
+    margin: 10px 25px 0px 0px;
+    border: solid #6abb54;
+    
+}
